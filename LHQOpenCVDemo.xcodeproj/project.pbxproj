@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EF4906A2270702E003578F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF490692270702E003578F3 /* AppDelegate.m */; };
+		3EF4906D2270702E003578F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4906C2270702E003578F3 /* ViewController.m */; };
+		3EF490702270702E003578F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF4906E2270702E003578F3 /* Main.storyboard */; };
+		3EF4907222707031003578F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF4907122707031003578F3 /* Assets.xcassets */; };
+		3EF4907522707031003578F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF4907322707031003578F3 /* LaunchScreen.storyboard */; };
+		3EF4907822707031003578F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4907722707031003578F3 /* main.m */; };
+		3EF4908222707031003578F3 /* LHQOpenCVDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4908122707031003578F3 /* LHQOpenCVDemoTests.m */; };
+		3EF4908D22707031003578F3 /* LHQOpenCVDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4908C22707031003578F3 /* LHQOpenCVDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF4907E22707031003578F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF4905D2270702E003578F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF490642270702E003578F3;
+			remoteInfo = LHQOpenCVDemo;
+		};
+		3EF4908922707031003578F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF4905D2270702E003578F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF490642270702E003578F3;
+			remoteInfo = LHQOpenCVDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EF490652270702E003578F3 /* LHQOpenCVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHQOpenCVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF490682270702E003578F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EF490692270702E003578F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EF4906B2270702E003578F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3EF4906C2270702E003578F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EF4906F2270702E003578F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EF4907122707031003578F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EF4907422707031003578F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EF4907622707031003578F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF4907722707031003578F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EF4907D22707031003578F3 /* LHQOpenCVDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHQOpenCVDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF4908122707031003578F3 /* LHQOpenCVDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHQOpenCVDemoTests.m; sourceTree = "<group>"; };
+		3EF4908322707031003578F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF4908822707031003578F3 /* LHQOpenCVDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHQOpenCVDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF4908C22707031003578F3 /* LHQOpenCVDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHQOpenCVDemoUITests.m; sourceTree = "<group>"; };
+		3EF4908E22707031003578F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF490622270702E003578F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF4907A22707031003578F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF4908522707031003578F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF4905C2270702E003578F3 = {
+			isa = PBXGroup;
+			children = (
+				3EF490672270702E003578F3 /* LHQOpenCVDemo */,
+				3EF4908022707031003578F3 /* LHQOpenCVDemoTests */,
+				3EF4908B22707031003578F3 /* LHQOpenCVDemoUITests */,
+				3EF490662270702E003578F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF490662270702E003578F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF490652270702E003578F3 /* LHQOpenCVDemo.app */,
+				3EF4907D22707031003578F3 /* LHQOpenCVDemoTests.xctest */,
+				3EF4908822707031003578F3 /* LHQOpenCVDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EF490672270702E003578F3 /* LHQOpenCVDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3EF490682270702E003578F3 /* AppDelegate.h */,
+				3EF490692270702E003578F3 /* AppDelegate.m */,
+				3EF4906B2270702E003578F3 /* ViewController.h */,
+				3EF4906C2270702E003578F3 /* ViewController.m */,
+				3EF4906E2270702E003578F3 /* Main.storyboard */,
+				3EF4907122707031003578F3 /* Assets.xcassets */,
+				3EF4907322707031003578F3 /* LaunchScreen.storyboard */,
+				3EF4907622707031003578F3 /* Info.plist */,
+				3EF4907722707031003578F3 /* main.m */,
+			);
+			path = LHQOpenCVDemo;
+			sourceTree = "<group>";
+		};
+		3EF4908022707031003578F3 /* LHQOpenCVDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF4908122707031003578F3 /* LHQOpenCVDemoTests.m */,
+				3EF4908322707031003578F3 /* Info.plist */,
+			);
+			path = LHQOpenCVDemoTests;
+			sourceTree = "<group>";
+		};
+		3EF4908B22707031003578F3 /* LHQOpenCVDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF4908C22707031003578F3 /* LHQOpenCVDemoUITests.m */,
+				3EF4908E22707031003578F3 /* Info.plist */,
+			);
+			path = LHQOpenCVDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF490642270702E003578F3 /* LHQOpenCVDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF4909122707031003578F3 /* Build configuration list for PBXNativeTarget "LHQOpenCVDemo" */;
+			buildPhases = (
+				3EF490612270702E003578F3 /* Sources */,
+				3EF490622270702E003578F3 /* Frameworks */,
+				3EF490632270702E003578F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHQOpenCVDemo;
+			productName = LHQOpenCVDemo;
+			productReference = 3EF490652270702E003578F3 /* LHQOpenCVDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF4907C22707031003578F3 /* LHQOpenCVDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF4909422707031003578F3 /* Build configuration list for PBXNativeTarget "LHQOpenCVDemoTests" */;
+			buildPhases = (
+				3EF4907922707031003578F3 /* Sources */,
+				3EF4907A22707031003578F3 /* Frameworks */,
+				3EF4907B22707031003578F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF4907F22707031003578F3 /* PBXTargetDependency */,
+			);
+			name = LHQOpenCVDemoTests;
+			productName = LHQOpenCVDemoTests;
+			productReference = 3EF4907D22707031003578F3 /* LHQOpenCVDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF4908722707031003578F3 /* LHQOpenCVDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF4909722707031003578F3 /* Build configuration list for PBXNativeTarget "LHQOpenCVDemoUITests" */;
+			buildPhases = (
+				3EF4908422707031003578F3 /* Sources */,
+				3EF4908522707031003578F3 /* Frameworks */,
+				3EF4908622707031003578F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF4908A22707031003578F3 /* PBXTargetDependency */,
+			);
+			name = LHQOpenCVDemoUITests;
+			productName = LHQOpenCVDemoUITests;
+			productReference = 3EF4908822707031003578F3 /* LHQOpenCVDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF4905D2270702E003578F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = linhuaqin;
+				TargetAttributes = {
+					3EF490642270702E003578F3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3EF4907C22707031003578F3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3EF490642270702E003578F3;
+					};
+					3EF4908722707031003578F3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3EF490642270702E003578F3;
+					};
+				};
+			};
+			buildConfigurationList = 3EF490602270702E003578F3 /* Build configuration list for PBXProject "LHQOpenCVDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF4905C2270702E003578F3;
+			productRefGroup = 3EF490662270702E003578F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF490642270702E003578F3 /* LHQOpenCVDemo */,
+				3EF4907C22707031003578F3 /* LHQOpenCVDemoTests */,
+				3EF4908722707031003578F3 /* LHQOpenCVDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF490632270702E003578F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF4907522707031003578F3 /* LaunchScreen.storyboard in Resources */,
+				3EF4907222707031003578F3 /* Assets.xcassets in Resources */,
+				3EF490702270702E003578F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF4907B22707031003578F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF4908622707031003578F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF490612270702E003578F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF4906D2270702E003578F3 /* ViewController.m in Sources */,
+				3EF4907822707031003578F3 /* main.m in Sources */,
+				3EF4906A2270702E003578F3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF4907922707031003578F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF4908222707031003578F3 /* LHQOpenCVDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF4908422707031003578F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF4908D22707031003578F3 /* LHQOpenCVDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF4907F22707031003578F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF490642270702E003578F3 /* LHQOpenCVDemo */;
+			targetProxy = 3EF4907E22707031003578F3 /* PBXContainerItemProxy */;
+		};
+		3EF4908A22707031003578F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF490642270702E003578F3 /* LHQOpenCVDemo */;
+			targetProxy = 3EF4908922707031003578F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EF4906E2270702E003578F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF4906F2270702E003578F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF4907322707031003578F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF4907422707031003578F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EF4908F22707031003578F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EF4909022707031003578F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF4909222707031003578F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP4T4JWN4J;
+				INFOPLIST_FILE = LHQOpenCVDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linhuaqin.LHQOpenCVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF4909322707031003578F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP4T4JWN4J;
+				INFOPLIST_FILE = LHQOpenCVDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linhuaqin.LHQOpenCVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EF4909522707031003578F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP4T4JWN4J;
+				INFOPLIST_FILE = LHQOpenCVDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linhuaqin.LHQOpenCVDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHQOpenCVDemo.app/LHQOpenCVDemo";
+			};
+			name = Debug;
+		};
+		3EF4909622707031003578F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP4T4JWN4J;
+				INFOPLIST_FILE = LHQOpenCVDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linhuaqin.LHQOpenCVDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHQOpenCVDemo.app/LHQOpenCVDemo";
+			};
+			name = Release;
+		};
+		3EF4909822707031003578F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP4T4JWN4J;
+				INFOPLIST_FILE = LHQOpenCVDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linhuaqin.LHQOpenCVDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LHQOpenCVDemo;
+			};
+			name = Debug;
+		};
+		3EF4909922707031003578F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP4T4JWN4J;
+				INFOPLIST_FILE = LHQOpenCVDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linhuaqin.LHQOpenCVDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LHQOpenCVDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF490602270702E003578F3 /* Build configuration list for PBXProject "LHQOpenCVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF4908F22707031003578F3 /* Debug */,
+				3EF4909022707031003578F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF4909122707031003578F3 /* Build configuration list for PBXNativeTarget "LHQOpenCVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF4909222707031003578F3 /* Debug */,
+				3EF4909322707031003578F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF4909422707031003578F3 /* Build configuration list for PBXNativeTarget "LHQOpenCVDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF4909522707031003578F3 /* Debug */,
+				3EF4909622707031003578F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF4909722707031003578F3 /* Build configuration list for PBXNativeTarget "LHQOpenCVDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF4909822707031003578F3 /* Debug */,
+				3EF4909922707031003578F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EF4905D2270702E003578F3 /* Project object */;
+}
