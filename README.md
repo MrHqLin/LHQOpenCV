@@ -3,6 +3,9 @@
 ![opencv1](opencv1.jpeg)
 ![opencv2](opencv2.jpeg)
 
+#### 由于openCV 这个库单体文件大于100M ，传不上github。该demo没有导入openCV，导入了就可以使用了
+ （pod 'OpenCV','~> 2.4.13'）最新的版本，由于有些接口改变太多，我这边导入的事2.4.13版本。
+
 ##### 1. 矩形的边缘检测及裁剪
  ```
  void find_squares(cv::Mat& image, std::vector<std::vector<cv::Point>>&squares) {
