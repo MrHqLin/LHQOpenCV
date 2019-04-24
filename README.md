@@ -1,5 +1,8 @@
 # LHQOpenCV
 
+![opencv1](opencv1.jpeg)
+![opencv2](opencv2.jpeg)
+
 ##### 1. 矩形的边缘检测及裁剪
  ```
  void find_squares(cv::Mat& image, std::vector<std::vector<cv::Point>>&squares) {
