@@ -15,6 +15,12 @@
 		3EF4907822707031003578F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4907722707031003578F3 /* main.m */; };
 		3EF4908222707031003578F3 /* LHQOpenCVDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4908122707031003578F3 /* LHQOpenCVDemoTests.m */; };
 		3EF4908D22707031003578F3 /* LHQOpenCVDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4908C22707031003578F3 /* LHQOpenCVDemoUITests.m */; };
+		3EF490C722708421003578F3 /* LHQOpenCV2ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EF490BB22708420003578F3 /* LHQOpenCV2ViewController.mm */; };
+		3EF490C822708421003578F3 /* LHQOpenCV1ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EF490BD22708420003578F3 /* LHQOpenCV1ViewController.mm */; };
+		3EF490C922708421003578F3 /* LHQOpenCV2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF490BF22708421003578F3 /* LHQOpenCV2ViewController.xib */; };
+		3EF490CA22708421003578F3 /* MMCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF490C222708421003578F3 /* MMCropView.m */; };
+		3EF490CB22708421003578F3 /* MMOpenCVHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EF490C422708421003578F3 /* MMOpenCVHelper.mm */; };
+		3EF490CC22708421003578F3 /* MTGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EF490C522708421003578F3 /* MTGeometry.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		3EF4908822707031003578F3 /* LHQOpenCVDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHQOpenCVDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF4908C22707031003578F3 /* LHQOpenCVDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHQOpenCVDemoUITests.m; sourceTree = "<group>"; };
 		3EF4908E22707031003578F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF490BB22708420003578F3 /* LHQOpenCV2ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LHQOpenCV2ViewController.mm; sourceTree = "<group>"; };
+		3EF490BC22708420003578F3 /* LHQOpenCV1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHQOpenCV1ViewController.h; sourceTree = "<group>"; };
+		3EF490BD22708420003578F3 /* LHQOpenCV1ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LHQOpenCV1ViewController.mm; sourceTree = "<group>"; };
+		3EF490BE22708420003578F3 /* LHQOpenCV2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHQOpenCV2ViewController.h; sourceTree = "<group>"; };
+		3EF490BF22708421003578F3 /* LHQOpenCV2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHQOpenCV2ViewController.xib; sourceTree = "<group>"; };
+		3EF490C122708421003578F3 /* MMCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCropView.h; sourceTree = "<group>"; };
+		3EF490C222708421003578F3 /* MMCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCropView.m; sourceTree = "<group>"; };
+		3EF490C322708421003578F3 /* MMOpenCVHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMOpenCVHelper.h; sourceTree = "<group>"; };
+		3EF490C422708421003578F3 /* MMOpenCVHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MMOpenCVHelper.mm; sourceTree = "<group>"; };
+		3EF490C522708421003578F3 /* MTGeometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MTGeometry.c; sourceTree = "<group>"; };
+		3EF490C622708421003578F3 /* MTGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGeometry.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +122,12 @@
 				3EF490692270702E003578F3 /* AppDelegate.m */,
 				3EF4906B2270702E003578F3 /* ViewController.h */,
 				3EF4906C2270702E003578F3 /* ViewController.m */,
+				3EF490BC22708420003578F3 /* LHQOpenCV1ViewController.h */,
+				3EF490BD22708420003578F3 /* LHQOpenCV1ViewController.mm */,
+				3EF490BE22708420003578F3 /* LHQOpenCV2ViewController.h */,
+				3EF490BB22708420003578F3 /* LHQOpenCV2ViewController.mm */,
+				3EF490BF22708421003578F3 /* LHQOpenCV2ViewController.xib */,
+				3EF490C022708421003578F3 /* OpenCV */,
 				3EF4906E2270702E003578F3 /* Main.storyboard */,
 				3EF4907122707031003578F3 /* Assets.xcassets */,
 				3EF4907322707031003578F3 /* LaunchScreen.storyboard */,
@@ -130,6 +153,19 @@
 				3EF4908E22707031003578F3 /* Info.plist */,
 			);
 			path = LHQOpenCVDemoUITests;
+			sourceTree = "<group>";
+		};
+		3EF490C022708421003578F3 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				3EF490C122708421003578F3 /* MMCropView.h */,
+				3EF490C222708421003578F3 /* MMCropView.m */,
+				3EF490C322708421003578F3 /* MMOpenCVHelper.h */,
+				3EF490C422708421003578F3 /* MMOpenCVHelper.mm */,
+				3EF490C522708421003578F3 /* MTGeometry.c */,
+				3EF490C622708421003578F3 /* MTGeometry.h */,
+			);
+			path = OpenCV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +273,7 @@
 			files = (
 				3EF4907522707031003578F3 /* LaunchScreen.storyboard in Resources */,
 				3EF4907222707031003578F3 /* Assets.xcassets in Resources */,
+				3EF490C922708421003578F3 /* LHQOpenCV2ViewController.xib in Resources */,
 				3EF490702270702E003578F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF490C722708421003578F3 /* LHQOpenCV2ViewController.mm in Sources */,
+				3EF490C822708421003578F3 /* LHQOpenCV1ViewController.mm in Sources */,
+				3EF490CC22708421003578F3 /* MTGeometry.c in Sources */,
+				3EF490CB22708421003578F3 /* MMOpenCVHelper.mm in Sources */,
+				3EF490CA22708421003578F3 /* MMCropView.m in Sources */,
 				3EF4906D2270702E003578F3 /* ViewController.m in Sources */,
 				3EF4907822707031003578F3 /* main.m in Sources */,
 				3EF4906A2270702E003578F3 /* AppDelegate.m in Sources */,
